@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pilates</title>
+    <title>Studio Equilibrio-Pilates</title>
     <link rel = "stylesheet" href = "estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -28,66 +28,57 @@
     <!- navbar-->
     <br><br><br>
 <header>
-    <h1>Site do Studio Equilíbrio</h1>
-    <nav class="navbar sm:navbar-expand bg-1 fg-2">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Menu</a>
-    <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon" aria-hidden="true"></span>
-    </button>
-    <dialog class="drawer drawer-end" tabindex="-1" id="navbarNav" aria-labelledby="navbarNavLabel">
-      <div class="drawer-header">
-        <h5 class="drawer-title" id="navbarNavLabel">Observações</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
-      </div>
-      <div class="drawer-body">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Horários</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Galeria</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Local e Contatos </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Formulário</a>
-          </li>
-        </ul>
-      </div>
-    </dialog>
-  </div>
+   <nav class="pilates-nav" aria-label="Navegação Rápida">
+  <a href="#inicio">Apresentação</a>
+  <a href="#observacoes">Observações</a>
+  <a href="#tabela">Dias e Horários</a>
+  <a href="#galeria">Galeria</a>
+  <a href="#contato">Local e Contato</a>
+   <a href="#formulario">Formulário</a> 
 </nav>
+<br><br><br><br><br><br><br><br>
+    <h1><strong>STUDIO EQUILÍBRIO </strong></h1>
+    <h1><strong>PILATES</strong></h1>
 <!--texto apresentação-->
 </header>
     <main>
-        <br><br><br>
-        <h6>O Studio Equilíbrio oferece aulas de pilates em turmas pequenas, conduzidas por instrutora com formação na área. O ambiente é tranquilo e pensado para o cuidado de cada aluno. Há horários pela manhã, à noite e aos sábados.</h6>
+      <section class="apresentação" id="inicio"></section>
+        <br><br><br> <br><br><br><br>
+      <h5><strong>O que é o pilates?</strong></h5>
+        <h6>O pilates é um método de condicionamento físico criado por Joseph Pilates no início do século XX. Ele trabalha o corpo de forma integrada, com movimentos controlados e atenção à respiração. O foco está no fortalecimento do “centro” do corpo (abdômen, lombar e quadril), mas o benefício vai além: melhora da postura, da flexibilidade, do equilíbrio e da consciência corporal.
+        O método se apoia em alguns princípios: concentração, controle, precisão, fluidez, respiração e centro. Por ter baixo impacto, é indicado para pessoas de diferentes idades e níveis de condicionamento, e os exercícios podem ser adaptados a cada necessidade.</h6>
         <br><br>
+        <img src="img/pilates.jpg" class="rounded" alt="Homem praticando pilates." width="750" height="300">
+
+
+         <br><br><br><br><br>
+        <h5><strong>Sobre nós</strong></h5>
+        <h6>No Studio Equilíbrio, o pilates é praticado com calma, atenção e cuidado. Nossas aulas são em turmas pequenas, o que permite que cada aluno receba acompanhamento próximo e orientações adequadas ao seu corpo e ao seu ritmo. As aulas são conduzidas por uma instrutora com formação na área, que acompanha de perto a evolução de cada pessoa, seja para quem está começando ou para quem já pratica há tempo. O ambiente foi pensado para ser tranquilo e acolhedor, um espaço onde você pode desacelerar, cuidar de si e se sentir à vontade durante a prática. Para facilitar a sua rotina, oferecemos horários pela manhã, à noite e aos sábados. Venha conhecer o Studio Equilíbrio e descubra um jeito mais leve de cuidar do corpo e da mente..</h6>
+        <br><br><br><br><br><br><br>
 <!--cartões-->
-        <div class="contains-inline">
+        <div class="contains-inline" id="observacoes">
   <div class="card-group">
   <div class="card">
     <img src="img/delado.png" class="card-img-top" alt="...">
     <div class="card-body">
-      <h4 class="card-title">Turmas</h4>
+      <h4 class="card-title"><strong>Turmas</strong></h4>
       <p class="card-text">Máximo 5 alunos por aula.</p>
       <p class="card-text">Atenção indivídual.</p>
       <p class="card-text"><small class="fg-2">Atualizado recentemente</small></p>
     </div>
   </div>
+
   <div class="card">
     <img src="img/deitada.png" class="card-img-top" alt="...">
     <div class="card-body">
-      <h4 class="card-title">Avaliação Inicial</h4>
+      <h4 class="card-title"><strong>Avaliação Inicial</strong></h4>
       <p class="card-text">Conversa e avaliação postural antes da primeira aula.</p>
     </div>
   </div>
   <div class="card">
     <img src="img/meditacao.png" class="card-img-top" alt="...">
     <div class="card-body">
-      <h4 class="card-title">Horários Flexíveis</h4>
+      <h4 class="card-title"><strong>Horários Flexíveis</strong></h4>
       <p class="card-text">Manhã / Noite / Sábado.</p>
       <p class="card-text">Com possibilidade de reposição.</p>
       <p class="card-text"><small class="fg-2">Atualizado recentemente</small></p>
@@ -96,9 +87,10 @@
   </div>
 </div>
 
-<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
 <!--tabela horário-->
-<table class="table">
+<h1>Dias e Horários Disponíveis</h1>
+<table class="table" id="tabela">
   <thead>
     <tr>
       <th scope="col">Dias</th>
@@ -135,74 +127,58 @@
   </tbody>
 </table>
  
-
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
 <!--galeria-->
+<section class="galeria" id="galeria">
 <img src="img/roupaclara.jpg" class="rounded float-start" alt="Mulher praticando pilates">
 <img src="img/trio.jpg" class="rounded float-end" alt="Trio de mulheres praticando pilates.">
 <img src="img/auxiliando.avif" class="rounded mx-auto d-block" alt="Professora auxiliando a realização do alongamento.">
+<br>
 <img src="img/homem.jpg" class="rounded float-end" alt="Homem praticando pilates.">
 <br>
 <img src="img/instrutor.avif" class="rounded mx-auto d-block" alt="Professor auxiliando a realização do alongamento.">
+</section>
 
 <br><br><br><br><br><br>
 <br><br><br>
 <!--emojis endereço e contato-->
-<div class="text-center">
-  <img src="..." class="rounded" alt="...">
+<div class="text-center" id="contato">
+  <img src="img/localizacao.png" class="rounded" alt="...">
 </div>
+<h4>Rua Edy Lourdes, 63 - Taboão - Bragança Paulista - SP</h4>
+<br>
 <div class="text-center">
-  <img src="..." class="rounded" alt="...">
+  <img src="img/telefone.png" class="rounded" alt="...">
 </div>
+<h4>(11) 90000-0011</h4>
+<br>
 <div class="text-center">
-  <img src="..." class="rounded" alt="...">
+  <img src="img/mensagem.png" class="rounded" alt="...">
 </div>
-
+<h4>contato@studioequilibrio.exemplo</h4>
+<br><br><br><br><br><br>
 <!--formulario-->
-         <section>
-            <h1> CADASTRO</h1>
-            <h5> Preencha o formulário abaixo para entrar em contato comigo: </h5>
-            <form action = "#" method = "get"> 
+<hr>
+         <section id="formulario">
+            <h1><strong>Formulário</strong></h1>
+            <h6> Preencha o formulário abaixo e venha fazer parte dessa rotina mais leve, onde você é a prioridade - um lugar para desacelerar, respirar e se movimentar! </h6>
+            <br>
+            <hr>
+            <form action = "#" method = "get" >
+              <p>
+                    <label for = "Nome">Nome Completo: </label> 
+                    <input type = "nome" id = "nome" placeholder = "Ex.: Estela dos Santos"> 
+                </p> 
                 <p>
                     <label for = "Email"> E-mail: </label> 
                     <input type = "email" id = "email" placeholder = "Exemplo:nome@gmail.com"> 
                 </p>
-                <p>
-                <label for = "dtnasc">Data Nasc.:</label>
-                <input type = "date" id = "dtnasc" name = "dtnasc">               
-                 </p>
                  <p>
                     <label for = "Telefone"> Telefone: </label>
                     <input type = "tel" id = "Telefone" placeholder = "(00)00000-0000"> 
                 </p>
-                <p>
-                    <label for = "Senha"> Senha: </label>
-                    <input type = "password" id = "senha" placeholder = "Crie sua senha: "> 
-                </p>
-            <br><br>
-                   <div class="form-field">
-  <label for="fieldTextarea" class="form-label">Mensagem:</label>
-  <textarea class="form-control" id="fieldTextarea" rows="6"></textarea>
-  <div class="form-text">
-    Certifique-se de incluir detalhes relevantes.
-  </div>
-</div>
- <br><br> <br><br> <br>
-<div class="form-field">
-  <label class="form-label">Termos e Condições</label>
-  <input type="checkbox" id="fieldOverheadCheck" class="check" required />
-  <div class="form-field-content">
-    <label for="fieldOverheadCheck">Concordo com os termos</label>
-    <br>
-    <small class="form-text">Por favor, leia antes de concordar.</small>
-  </div>
-</div>
 
-<button type = "submit" class="submit"> Cadastrar </button>
-
-<br>
-
-
-<!--qual seu interesse-->
+                <!--qual seu interesse-->
 <div class="form-field">
   <label for="exampleFormControlSelect2" class="form-label">Qual o seu interesse:</label>
   <select class="form-control" id="exampleFormControlSelect2">
@@ -212,26 +188,40 @@
     <option value="3">Horário e Dias</option>
     <option value="4">Aula Experimental</option>
     <option value="5">Dúvidas</option>
+     <option value="6">Outro assunto</option>
   </select>
 </div>
-<!--mensagem-->
-<div>
-  <label for="sizesTextareaLarge" class="form-label"></label>
-  <textarea class="form-control form-control-lg" id="sizesTextareaLarge" placeholder="Mensagem:" aria-label="Large textarea example"></textarea>
 
-  <!--botao-->
-  <div class="d-grid gap-2 md:d-block">
-  <button class="btn-solid theme-primary" type="button">Confirmar</button>
+            <br><br>
+                 <div class="form-field">
+  <label for="fieldTextarea" class="form-label">Mensagem:</label>
+  <textarea class="form-control" id="fieldTextarea" rows="6" placeholder="Digite o assunto..."></textarea>
+  <div class="form-text">
+    Certifique-se de incluir detalhes relevantes.
+  </div>
 </div>
+ <br><br><br><br>
+<div class="form-field">
+  <label class="form-label">TERMOS E CONDIÇÕES</label>
+  <input type="checkbox" id="fieldOverheadCheck" class="check" required />
+  <div class="form-field-content">
+    <label for="fieldOverheadCheck">Concordo com os termos</label>
+    <br>
+    <small class="form-text">Por favor, leia antes de concordar.</small>
+  </div>
 </div>
+<br>
+<button type = "submit" class="submit"> Cadastrar </button>
+<br><br><br>
+
 
  <footer>
+  <hr>
     <p class="fw-lighter">&copy; 2026 Studio Equilibrio - Pilates. Todos os direitos reservados. Reprodução ou distribuição sem autorização prévia é proibida.</p>
    <br>
     <a href="https://www.google.com/search?q=Rua+Edy+Lourdes%2C+63+-+Tabo%C3%A3o+-+Bragan%C3%A7a+Paulista+-+SP&oq=Rua+Edy+Lourdes%2C+63+-+Tabo%C3%A3o+-+Bragan%C3%A7a+Paulista+-+SP&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABiABBiiBDIHCAIQABjvBTIHCAMQABjvBTIKCAQQABiABBiiBDIHCAUQABjvBdIBCDEzMDlqMGo3qAIAsAIA&sourceid=chrome&source=chrome.ob&ie=UTF-8" target="_blank">LOCALIDADE</a> <br>
 
   </footer>
-
-    </main>
+</main>
 </body>
 </html>

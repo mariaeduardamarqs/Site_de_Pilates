@@ -1,0 +1,93 @@
+:root {
+  body{
+  background-color: #f5f3fa;
+  }
+  h1 {
+    text-align: center;
+    color: #8e7cc3;
+    font-family: Quicksand;
+  }
+  h6 {
+    font-family: Raleway;
+    text-align: center;
+  }
+  .card-title {
+    font-family: Quicksand;
+     color: #8e7cc3;
+  }
+  .card-text {
+    font-family: Raleway;
+  }
+  .table {
+     font-family: Quicksand;
+  }
+  section{
+    text-align: center;
+  }
+  h4 {
+     font-family: Raleway;
+    text-align: center;
+  }
+  p {
+    font-family: Raleway;
+  }
+  .form-label {
+    font-family: Raleway;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  html {
+    scroll-behavior: smooth; /* Localiza e desliza suavemente na mesma página */
+  }
+  .pilates-nav {
+    top: 20px;
+    right: 20px; 
+    z-index: 9999;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 6px 8px;
+    background: #bfb9d3; /* Tom areia translúcido */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 999px;
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+
+
+  .pilates-nav a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    color:#000000; /* Verde sálvia escuro */
+    padding: 6px 14px;
+    border-radius: 999px;
+    transition: all 0.25s ease;
+  }
+
+
+  .pilates-nav a:hover,
+  .pilates-nav a:focus {
+    color: #000000; /*cursor em cima
+    background-color: #c2b6e6; /* Destaque ao passar o mouse ou clicar */
+    outline: none;
+  }
+  h5 {
+     color: #9983db;
+    font-family: Quicksand;
+    text-align: center;
+  }
+ img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ #tabela thead th {
+  background-color: #bfb9d3 ;
+  color: white;
+ }
+   
+}
