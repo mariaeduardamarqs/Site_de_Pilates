@@ -62,7 +62,7 @@
     text-decoration: none;
     font-size: 13px;
     font-weight: 500;
-    color:#000000; /* Verde sálvia escuro */
+    color:#27054e; /* Verde sálvia escuro */
     padding: 6px 14px;
     border-radius: 999px;
     transition: all 0.25s ease;
@@ -71,7 +71,7 @@
 
   .pilates-nav a:hover,
   .pilates-nav a:focus {
-    color: #000000; /*cursor em cima
+    color: #ffffff; /*cursor em cima
     background-color: #c2b6e6; /* Destaque ao passar o mouse ou clicar */
     outline: none;
   }
@@ -89,5 +89,13 @@
   background-color: #bfb9d3 ;
   color: white;
  }
-   
+ nav {
+  background-color:  #bfb9d3;
+ }
+   .card-title {
+    background-color:  #bfb9d3;
+   }
+   .container-fluid {
+    font-family: Quicksand;
+   }
 }
